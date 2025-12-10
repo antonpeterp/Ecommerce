@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="listings.css" />
+  </head>
+  <body>
+    <header>
+      <div class="filter-container">
+        <h3>Filters</h3>
+
+        <!-- Gender Filter -->
+        <div class="filter-section">
+          <h4>Gender</h4>
+          <label
+            ><input type="radio" name="gender" value="ALL" checked /> All</label
+          >
+          <label><input type="radio" name="gender" value="M" /> Men</label>
+          <label><input type="radio" name="gender" value="W" /> Women</label>
+        </div>
+
+        <!-- Price Filter -->
+        <div class="filter-section">
+          <h4>Price</h4>
+          <label
+            ><input type="radio" name="price" value="ALL" checked /> All</label
+          >
+          <label
+            ><input type="radio" name="price" value="0-1000" /> Under
+            ₹1000</label
+          >
+          <label
+            ><input type="radio" name="price" value="1000-2000" />
+            ₹1000–₹2000</label
+          >
+          <label
+            ><input type="radio" name="price" value="2000-3000" />
+            ₹2000–₹3000</label
+          >
+          <label
+            ><input type="radio" name="price" value="3000-99999" /> Above
+            ₹3000</label
+          >
+        </div>
+        <div class="filter-section">
+          <h3>Customer Ratings</h3>
+          <label
+            >ALL
+            <input type="radio" name="rating" value="ALL" checked />
+          </label>
+          <label
+            >4 & Above
+            <input type="radio" name="rating" value="4" />
+          </label>
+          <label
+            >3 & Above
+            <input type="radio" name="rating" value="3" />
+          </label>
+          <label
+            >2 & Above
+            <input type="radio" name="rating" value="2" />
+          </label>
+          <label
+            >1 & Above
+            <input type="radio" name="rating" value="1" />
+          </label>
+        </div>
+      </div>
+
+      <h1>Products</h1>
+      <div class="redirect">
+        <p><span style="font-size: 16px">Welcome</span></p>
+        <a href="../index.html"
+          ><img
+            src="https://t3.ftcdn.net/jpg/06/48/97/02/240_F_648970215_Ri8H7khcb4ONyr90HXZauCaAPymWwz2l.jpg"
+            alt="home"
+        /></a>
+        <a href="user.html"
+          ><img
+            src="https://imgs.search.brave.com/jO917JRWSzT1jvGySBEn3ZEXSKlWdjjFfRvaSXSRAco/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9sb2dpbi1p/Y29uLXN2Zy1kb3du/bG9hZC1wbmctOTc1/Mzk4MC5wbmc_Zj13/ZWJwJnc9MTI4"
+            alt="login"
+        /></a>
+      </div>
+    </header>
+    <div class="product-cards" id="products"></div>
+  </body>
+  <script type="module" src="./listings.js"></script>
+</html>
