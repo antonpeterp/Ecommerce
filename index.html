@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Magasin</title>
+    <meta name="author" description="Anton Peter" />
+    <link rel="stylesheet" href="homestyles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <img src="assets/logo.png" id="logo" />
+        </div>
+
+        <ul class="nav-center">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find Us</a></li>
+        </ul>
+
+        <ul class="nav-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        src="https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg"
+        class="hero-image"
+      />
+      <div class="hero-content">
+        <h1 id="hero-txt">New Offers</h1>
+        <h1 id="hero-txt">Ends Soon</h1>
+        <p>Hurry Up Grab A Pair</p>
+        <button
+          onclick="window.location.href='./pages/listings.html'"
+          id="hero-btn"
+        >
+          Shop Now
+        </button>
+      </div>
+    </main>
+
+    <div class="items-section">
+      <h1 class="section-title">Shoes</h1>
+
+      <div
+        class="grid-container"
+        onclick="window.location.href='./pages/listings.html'"
+      >
+        <!-- Row 1 -->
+        <div class="grid-item bg1">
+          <h2>Athletic Footwear</h2>
+        </div>
+
+        <div class="grid-item bg2">
+          <h2>Oxfords</h2>
+        </div>
+
+        <div class="grid-item bg3">
+          <h2>Derby Shoes</h2>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="grid-item bg4">
+          <h2>Flip-Flops</h2>
+        </div>
+
+        <div class="grid-item bg5">
+          <h2>Boots</h2>
+        </div>
+
+        <div class="grid-item bg6">
+          <h2>Fitness Wear</h2>
+        </div>
+
+        <div class="grid-item bg7">
+          <h2>Stilettos</h2>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="grid-item bg8">
+          <h2>Combat Boots</h2>
+        </div>
+
+        <div class="grid-item bg9">
+          <h2>Cowboy Boots</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECOND SECTION -->
+    <div class="items-section">
+      <h1 class="section-title">Clothes</h1>
+
+      <div
+        class="grid-container-alt"
+        onclick="window.location.href='./pages/listings.html'"
+      >
+        <div class="grid-item bg1m">
+          <h2>Jeans & Pants</h2>
+        </div>
+
+        <div class="grid-item bg2m">
+          <h2>Summer Collection</h2>
+        </div>
+
+        <div class="grid-item bg3m">
+          <h2>Casuals</h2>
+        </div>
+
+        <div class="grid-item bg4m">
+          <h2>Culturals</h2>
+        </div>
+
+        <div class="grid-item bg5f">
+          <h2>Winter Collection</h2>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="f1">
+        <img src="/Ecommerce /assets/logo.png" alt="logo" />
+        <div class="f1_content">
+          <p>Copyright © 2026</p>
+          <br />
+          <p>All rights reserved.</p>
+          <br />
+        </div>
+        <div class="f1_logos">
+          <div class="f1_lg_1">
+            <a href="#">
+              <img
+                src="https://imgs.search.brave.com/nKd3NFbMdj8R87z1rQjwbeGkkfHxaNJhSGoBC4IWSso/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wZW5q/aS5jby93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNy9YLWxv/Z28tdHdpdHRlci0x/MDI0eDU3NC5qcGc"
+                alt="logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="f2">
+        <div class="company">
+          <h1>Company</h1>
+          <ul>
+            <li><a href="#" style="margin-top: 80px"> About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="Support">
+          <h1>Support</h1>
+          <ul>
+            <li><a href="#" style="margin-top: 80px"> Help center</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Stay_up">
+        <h1>Stay Up to date</h1>
+        <input type="email" placeholder="Your Email Address" />
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
